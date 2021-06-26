@@ -1,3 +1,3 @@
 FROM httpd
 
-ADD . /var/www/html
+ADD ./index.html /usr/local/apache2/htdocs/
